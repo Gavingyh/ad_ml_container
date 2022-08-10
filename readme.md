@@ -19,21 +19,15 @@ For first time setups please do the following
 
 
 Steps to start container
-1. Pull image from docker repository
-[~]$ docker pull gavingyh/ad_ml_model:v1.0
 
-2. To check if image details (copy the image id):
-[~]$ docker image list
+Pull image from docker repository [~]$ docker pull gavingyh/ad_ml_model:v1.0
 
-3. To create and run container from image on port 5000:
-[~]$ docker run -p5000:5000 --name ad_backend_flask_arm <image id>
+To check if image details (copy the image id): [~]$ docker image list
 
-4. To check if container is running:
-[~]$ docker ps -a
+To create and run container from image on port 5000: [~]$ docker run -p5000:5000 --name ad_backend_flask_arm 
 
-5. To stop specific container:
-[~]$ docker stop <container name/id>
+To check if container is running: [~]$ docker ps -a
+
+To stop specific container: [~]$ docker stop <container name/id>
 
 *To exit docker cli -> ^C
-
-

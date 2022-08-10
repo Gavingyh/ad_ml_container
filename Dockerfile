@@ -16,4 +16,4 @@ SHELL ["conda", "run", "--no-capture-output", "-n", "myenv", "/bin/bash", "-c"]
 
 EXPOSE 5000
 # The code to run when container is started:
-ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "myenv", "python", "server.py"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "myenv", "python", "server.py"] 
