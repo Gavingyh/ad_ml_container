@@ -84,6 +84,6 @@ if __name__ == '__main__':
         model.buildModel()
     
     train, loaded_model = compileModel()
-    app.run(port=5000, debug=True)
+    app.run(host="0.0.0.0",port=5000, debug=True)
 
     
